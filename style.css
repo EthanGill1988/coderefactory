@@ -1,0 +1,197 @@
+* {
+    box-sizing:content-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+   
+}
+
+
+.header {
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    --color: #ffffff;
+    
+}
+
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    
+}
+
+
+.header h1 .seo {
+    color: var(--color);
+
+}
+
+
+.header div {
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+
+/* removed garbage code */
+
+
+.header div ul li {
+    display: inline-flex;
+    text-align: justify;
+  
+}
+
+
+a {
+    color: var(--color);
+    text-decoration: none;
+   
+}
+
+
+p {
+    font-size: 16px;
+    
+}
+
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.float-left {
+    float: left;
+    margin: 5px;
+    padding: 25px;
+   
+}
+
+.float-right {
+    float: right;
+    padding:5px;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    width: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    float: right;
+    
+}
+
+/*Class Selectors Adjusted to reduce clutter */
+.benefit-content {
+    margin-bottom: 32px;
+    float: right;
+    color:#ffffff;
+    
+}
+
+.benefit-lead h3 .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    float: right;
+
+}
+
+ .benefit-cost h3 { 
+    margin-bottom: 10px;
+    text-align: right;
+    float: right;
+    position: absolute;
+
+ }
+
+ .benefit-lead img .benefit-brand img .benefit-cost img { 
+   
+    margin: 10px auto;
+    max-width: 180px;
+    
+}
+
+/* Elements were mischaracterized as a Class when they were IDs. SEO missing Div ID */
+#search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    text-align: left;
+    
+    
+}
+    
+ #online-reputation-management {
+    margin-block: 20px;
+    padding: 50px;
+    height: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    text-align: center right;
+    
+}
+
+#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    text-align: left;
+    
+}
+    
+.H2 img {
+    max-height: 200px;
+  
+}
+
+/* condensed code*/
+#search-engine-optimization h2 #online-reputation-management h2 #social-media-marketing h2 {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    font-size: 36px;
+  flex-wrap: wrap;
+    float: right;
+   
+} 
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: column;
+   
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+ 
